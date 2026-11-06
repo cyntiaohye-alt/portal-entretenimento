@@ -1,0 +1,21 @@
+
+/* CSS Reset baseado no modelo de Eric Meyer */
+
+/* Remove margens e preenchimentos padrão */
+html, body, div, span, h1, h2, p, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Facilita o cálculo das dimensões dos elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Padroniza a exibição das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

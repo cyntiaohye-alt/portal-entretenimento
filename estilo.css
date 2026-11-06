@@ -1,0 +1,44 @@
+
+/* Estilo geral da página */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Título principal */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Personalização do título principal */
+.titulo-principal {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Organiza as três seções com Flexbox */
+.container-secoes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Padroniza os cartões */
+#filmes-series,
+#musica-podcasts,
+#games-tecnologia {
+    flex: 1 1 280px;
+    max-width: 380px;
+    border: 2px solid darkblue;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Ajusta as imagens dentro dos cartões */
+.container-secoes img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
